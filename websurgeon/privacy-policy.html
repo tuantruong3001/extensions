@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — WebSurgeon</title>
+<meta name="description" content="Privacy policy of the WebSurgeon Chrome extension by tuantv: element hiding, link cleaning and image conversion run on your device; no data is collected, transmitted, sold or shared.">
+<style>
+:root{color-scheme:light dark;--bg:#f7f5ef;--fg:#1b1a17;--muted:#676257;--line:#e2ddd0;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#f0ede5;--muted:#aaa497;--line:#36332c;--card:#1e1d1a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+main{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:30px;line-height:1.2;margin:.2em 0 .4em} h2{font-size:21px;margin:1.8em 0 .5em} p,li{color:var(--fg)}
+code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:.92em}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top} th{background:var(--card)}
+hr{border:0;border-top:1px solid var(--line);margin:48px 0} a{color:inherit}
+</style>
+</head>
+<body><main>
+<h1 id="privacy-policy--websurgeon">Privacy Policy — WebSurgeon</h1>
+<p><strong>Effective date:</strong> 11 November 2026 · <strong>Developer:</strong> tuantv · <strong>Contact:</strong> <a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></p>
+<p><a href="#chính-sách-quyền-riêng-tư--websurgeon">Tiếng Việt bên dưới</a></p>
+<h2 id="summary">Summary</h2>
+<p>WebSurgeon runs <strong>entirely on your device</strong>. It has no server, no account, no analytics, no ads and no tracking.</p>
+<p>Nothing you view, copy, hide or convert is sent to the developer or to anyone else.</p>
+<h2 id="what-the-extension-does-on-the-pages-you-visit">What the extension does on the pages you visit</h2>
+<p>WebSurgeon's page script runs on websites you open so that it can do five things — all inside your browser:</p>
+<table><thead><tr><th>Feature</th><th>What it touches</th><th>When</th></tr></thead><tbody><tr><td><strong>Hide elements</strong></td><td>Applies the hiding rules you created for that website (CSS selectors). When you aim and click, it reads the clicked element's tag, id/class names and up to 40 characters of its text to build a rule and a label.</td><td>Rules: whenever you open the site. Reading an element: only while you are aiming (Alt+Z).</td></tr><tr><td><strong>Unlock page</strong></td><td>Restores scrolling, text selection and right-click, and hides full-screen overlays, by changing styles and event handling of the open page.</td><td>Only when you press Alt+X or the popup button, or on sites where you turned on "Always unlock".</td></tr><tr><td><strong>Clean links on copy</strong></td><td>When you copy, it checks whether the copied text is a single web link and, if so, removes tracking parameters from it. Other text is ignored and nothing is stored.</td><td>Only at the moment you copy. Can be turned off in Settings.</td></tr><tr><td><strong>Images &amp; tables</strong></td><td>Converts an image you right-click to PNG/JPG, or a table you right-click to Excel/Markdown text.</td><td>Only when you pick that item in the right-click menu.</td></tr><tr><td><strong>Full-page screenshot</strong></td><td>Scrolls the open page section by section, takes a picture of each visible section with Chrome's screenshot function, and joins them into one PNG. Bars that stay fixed on screen are hidden briefly so they don't repeat; the page is put back exactly as it was.</td><td>Only when you press <em>Full-page shot</em> in the popup, pick it in the right-click menu, or use a shortcut you assigned.</td></tr></tbody></table>
+<p>Screenshots are created in memory and saved straight to your Downloads folder; they are not uploaded or kept by</p>
+<p>the extension.</p>
+<p>To convert an image, the extension downloads <strong>that one image</strong> from the address the page already uses, exactly as</p>
+<p>your browser does when it shows it, and converts it in memory. The result goes to your Downloads folder or your</p>
+<p>clipboard. Images are not sent anywhere else and are not kept by the extension.</p>
+<h2 id="what-the-extension-stores">What the extension stores</h2>
+<table><thead><tr><th>Data</th><th>Where</th><th>Why</th><th>How long</th></tr></thead><tbody><tr><td>Hiding rules per website: the site's host name, CSS selectors, a short label (tag/class + up to 40 characters of the element's text) and the time you created it</td><td><code>chrome.storage.local</code> on your device</td><td>Keep elements hidden when you come back</td><td>Until you click "Show again" / "Restore all", or uninstall</td></tr><tr><td>"Always unlock" choice per website (host name)</td><td><code>chrome.storage.local</code></td><td>Unlock that site automatically</td><td>Until you turn it off or uninstall</td></tr><tr><td>Settings: language, light/dark theme, clean-on-copy, small notices</td><td><code>chrome.storage.local</code></td><td>Remember your preferences</td><td>Until you change them or uninstall</td></tr><tr><td>Counters shown in the popup (links cleaned, elements hidden, pages unlocked, images &amp; tables converted)</td><td><code>chrome.storage.local</code></td><td>Show your totals</td><td>Until you uninstall</td></tr></tbody></table>
+<p>The extension does <strong>not</strong> store the links you copy, the text of pages, your browsing history, images or tables.</p>
+<h2 id="what-the-extension-does-not-do">What the extension does NOT do</h2>
+<ul>
+<li>It does <strong>not</strong> transmit page content, copied text, images, rules, settings or usage data off your device.</li>
+<li>It does <strong>not</strong> use cookies of its own, fingerprinting, analytics or advertising SDKs.</li>
+<li>It does <strong>not</strong> sell, rent or share data with third parties, and does not use data for creditworthiness or lending.</li>
+<li>It does <strong>not</strong> load remote code. All code ships inside the extension package.</li>
+<li>It does <strong>not</strong> read passwords, form inputs, other tabs or your browsing history.</li>
+<li>It does <strong>not</strong> bypass logins, subscriptions or paywalls, and cannot reveal content a website did not send to your browser.</li>
+</ul>
+<h2 id="permissions-and-why-they-are-needed">Permissions and why they are needed</h2>
+<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Save your hiding rules, "always unlock" choices, settings and counters on your device.</td></tr><tr><td><code>contextMenus</code></td><td>Add the right-click items (grouped under “WebSurgeon”): save image as PNG/JPG, copy image, copy clean link, copy table, capture full page.</td></tr><tr><td><code>scripting</code></td><td>Attach the extension's own page script to tabs that were already open before installation, when you use a shortcut, the popup or the right-click menu there.</td></tr><tr><td>Access to all websites (<code>&lt;all_urls&gt;</code>)</td><td>Hide your chosen elements as soon as a page loads (on any site you choose), clean links when you copy, download the image you right-click so it can be converted, and take full-page screenshots (Chrome only allows its screenshot function with this access). Everything is processed locally.</td></tr></tbody></table>
+<h2 id="exporting-and-deleting-your-data">Exporting and deleting your data</h2>
+<ul>
+<li><strong>Export / import:</strong> Settings › <em>Export rules</em> saves your hiding rules as a <code>.json</code> file on your computer;</li>
+</ul>
+<p>  <em>Import rules</em> merges such a file back. Files are created and read locally.</p>
+<ul>
+<li><strong>Delete:</strong> click "Show again" or "Restore all" in the popup for the current site, turn off "Always unlock",</li>
+</ul>
+<p>  or remove the extension — Chrome then deletes all its local data.</p>
+<h2 id="children">Children</h2>
+<p>The extension is a general productivity tool, not directed at children under 13, and collects no data from anyone.</p>
+<h2 id="changes">Changes</h2>
+<p>If this policy changes, the new version will be published at the same address with a new effective date, and the</p>
+<p>extension's store listing will be updated. Material changes that would affect how data is handled will be announced</p>
+<p>in the store listing before they take effect.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions or requests: <strong><a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></strong>.</p>
+<hr>
+<h1 id="chính-sách-quyền-riêng-tư--websurgeon">Chính sách quyền riêng tư — WebSurgeon</h1>
+<p><strong>Hiệu lực từ:</strong> 11/11/2026 · <strong>Nhà phát triển:</strong> tuantv · <strong>Liên hệ:</strong> <a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></p>
+<h2 id="tóm-tắt">Tóm tắt</h2>
+<p>WebSurgeon chạy <strong>hoàn toàn trên máy của bạn</strong>: không máy chủ, không tài khoản, không thống kê, không quảng cáo,</p>
+<p>không theo dõi. Không có gì bạn xem, copy, ẩn hay chuyển đổi được gửi cho nhà phát triển hay bất kỳ ai.</p>
+<h2 id="tiện-ích-làm-gì-trên-trang-bạn-xem">Tiện ích làm gì trên trang bạn xem</h2>
+<p>Script của WebSurgeon chạy trên trang bạn mở để làm 5 việc — tất cả trong trình duyệt của bạn:</p>
+<table><thead><tr><th>Tính năng</th><th>Đụng tới gì</th><th>Khi nào</th></tr></thead><tbody><tr><td><strong>Ẩn phần tử</strong></td><td>Áp quy tắc ẩn bạn đã tạo cho trang đó (CSS selector). Khi bạn ngắm và click, đọc tên thẻ, id/class và tối đa 40 ký tự chữ của phần tử để tạo quy tắc và nhãn.</td><td>Quy tắc: mỗi khi mở trang. Đọc phần tử: chỉ khi đang ngắm (Alt+Z).</td></tr><tr><td><strong>Mở khóa trang</strong></td><td>Bật lại cuộn trang, bôi đen chữ, chuột phải và ẩn lớp phủ toàn màn hình bằng cách đổi kiểu hiển thị và cách xử lý sự kiện của trang đang mở.</td><td>Chỉ khi bạn bấm Alt+X / nút trong popup, hoặc trên trang bạn bật "Luôn mở khóa".</td></tr><tr><td><strong>Link sạch khi copy</strong></td><td>Lúc bạn copy, kiểm tra chữ được copy có phải đúng 1 đường link không; nếu có thì gọt tham số theo dõi. Chữ khác bỏ qua, không lưu gì.</td><td>Chỉ đúng lúc bạn copy. Tắt được trong Cài đặt.</td></tr><tr><td><strong>Ảnh &amp; bảng</strong></td><td>Đổi ảnh bạn bấm chuột phải sang PNG/JPG, hoặc bảng bạn bấm chuột phải sang chữ Excel/Markdown.</td><td>Chỉ khi bạn chọn mục đó trong menu chuột phải.</td></tr><tr><td><strong>Chụp toàn trang</strong></td><td>Cuộn trang đang mở từng đoạn, chụp từng đoạn bằng chức năng chụp màn hình của Chrome rồi ghép thành một ảnh PNG. Thanh cố định trên màn hình được ẩn tạm để không lặp lại; trang được trả về y như cũ.</td><td>Chỉ khi bạn bấm <em>Chụp toàn trang</em> trong popup, chọn trong menu chuột phải, hoặc dùng phím tắt bạn tự gán.</td></tr></tbody></table>
+<p>Ảnh chụp được tạo trong bộ nhớ và lưu thẳng vào thư mục Tải xuống; không tải lên đâu và tiện ích không giữ lại.</p>
+<p>Để đổi định dạng ảnh, tiện ích tải <strong>đúng ảnh đó</strong> từ địa chỉ trang đang dùng — giống hệt khi trình duyệt hiển thị</p>
+<p>ảnh — rồi chuyển đổi trong bộ nhớ. Kết quả vào thư mục Tải xuống hoặc clipboard của bạn. Ảnh không được gửi đi đâu</p>
+<p>khác và tiện ích không giữ lại.</p>
+<h2 id="tiện-ích-lưu-gì">Tiện ích lưu gì</h2>
+<table><thead><tr><th>Dữ liệu</th><th>Ở đâu</th><th>Để làm gì</th><th>Bao lâu</th></tr></thead><tbody><tr><td>Quy tắc ẩn theo trang: tên miền, CSS selector, nhãn ngắn (thẻ/class + tối đa 40 ký tự chữ của phần tử), thời điểm tạo</td><td><code>chrome.storage.local</code> trên máy bạn</td><td>Giữ phần tử bị ẩn khi bạn quay lại</td><td>Tới khi bạn bấm "Hiện lại" / "Hiện lại tất cả" hoặc gỡ tiện ích</td></tr><tr><td>Lựa chọn "Luôn mở khóa" theo trang (tên miền)</td><td><code>chrome.storage.local</code></td><td>Tự mở khóa trang đó</td><td>Tới khi bạn tắt hoặc gỡ tiện ích</td></tr><tr><td>Cài đặt: ngôn ngữ, giao diện sáng/tối, làm sạch link khi copy, thông báo nhỏ</td><td><code>chrome.storage.local</code></td><td>Nhớ lựa chọn của bạn</td><td>Tới khi bạn đổi hoặc gỡ tiện ích</td></tr><tr><td>Bộ đếm trong popup (link đã làm sạch, phần tử đã ẩn, lần mở khóa, ảnh &amp; bảng đã chuyển)</td><td><code>chrome.storage.local</code></td><td>Hiện tổng số</td><td>Tới khi gỡ tiện ích</td></tr></tbody></table>
+<p>Tiện ích <strong>không</strong> lưu link bạn copy, chữ của trang, lịch sử duyệt web, ảnh hay bảng.</p>
+<h2 id="tiện-ích-không-làm-gì">Tiện ích KHÔNG làm gì</h2>
+<ul>
+<li><strong>Không</strong> gửi nội dung trang, chữ đã copy, ảnh, quy tắc, cài đặt hay dữ liệu sử dụng ra khỏi máy bạn.</li>
+<li><strong>Không</strong> dùng cookie riêng, dấu vân tay trình duyệt, thống kê hay SDK quảng cáo.</li>
+<li><strong>Không</strong> bán, cho thuê, chia sẻ dữ liệu với bên thứ ba; không dùng dữ liệu để chấm điểm tín dụng hay cho vay.</li>
+<li><strong>Không</strong> tải mã từ xa. Toàn bộ mã nằm trong gói tiện ích.</li>
+<li><strong>Không</strong> đọc mật khẩu, ô nhập liệu, tab khác hay lịch sử duyệt web.</li>
+<li><strong>Không</strong> vượt đăng nhập, gói trả phí hay tường phí, và không thể làm hiện nội dung mà website không gửi tới trình duyệt của bạn.</li>
+</ul>
+<h2 id="quyền-và-lý-do">Quyền và lý do</h2>
+<table><thead><tr><th>Quyền</th><th>Lý do</th></tr></thead><tbody><tr><td><code>storage</code></td><td>Lưu quy tắc ẩn, lựa chọn "luôn mở khóa", cài đặt và bộ đếm trên máy bạn.</td></tr><tr><td><code>contextMenus</code></td><td>Thêm mục chuột phải (gom dưới “WebSurgeon”): lưu ảnh PNG/JPG, copy ảnh, copy link sạch, copy bảng, chụp toàn trang.</td></tr><tr><td><code>scripting</code></td><td>Gắn script của chính tiện ích vào tab đã mở từ trước khi cài, khi bạn dùng phím tắt, popup hoặc menu chuột phải ở đó.</td></tr><tr><td>Truy cập mọi trang (<code>&lt;all_urls&gt;</code>)</td><td>Ẩn phần tử bạn đã chọn ngay khi trang tải (trên bất kỳ trang nào bạn chọn), làm sạch link khi copy, tải ảnh bạn bấm chuột phải để chuyển đổi, và chụp toàn trang (Chrome chỉ cho dùng chức năng chụp màn hình khi có quyền này). Mọi thứ xử lý trên máy.</td></tr></tbody></table>
+<h2 id="xuất-và-xoá-dữ-liệu">Xuất và xoá dữ liệu</h2>
+<ul>
+<li><strong>Xuất / nhập:</strong> Cài đặt › <em>Xuất quy tắc</em> lưu quy tắc ẩn thành file <code>.json</code> trên máy; <em>Nhập quy tắc</em> gộp file đó</li>
+</ul>
+<p>  vào lại. File được tạo và đọc ngay trên máy.</p>
+<ul>
+<li><strong>Xoá:</strong> bấm "Hiện lại" hoặc "Hiện lại tất cả" trong popup cho trang hiện tại, tắt "Luôn mở khóa", hoặc gỡ tiện ích</li>
+</ul>
+<p>  — Chrome sẽ xoá toàn bộ dữ liệu cục bộ của tiện ích.</p>
+<h2 id="trẻ-em">Trẻ em</h2>
+<p>Đây là công cụ năng suất chung, không hướng tới trẻ em dưới 13 tuổi, và không thu thập dữ liệu của bất kỳ ai.</p>
+<h2 id="thay-đổi">Thay đổi</h2>
+<p>Nếu chính sách thay đổi, bản mới sẽ đăng ở cùng địa chỉ với ngày hiệu lực mới và trang Store sẽ được cập nhật.</p>
+<p>Thay đổi quan trọng ảnh hưởng tới cách xử lý dữ liệu sẽ được thông báo trên trang Store trước khi có hiệu lực.</p>
+<h2 id="liên-hệ">Liên hệ</h2>
+<p>Câu hỏi hoặc yêu cầu: <strong><a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></strong>.</p>
+</main></body>
+</html>

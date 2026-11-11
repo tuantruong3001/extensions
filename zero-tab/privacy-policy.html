@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Zero-Tab Switching</title>
+<meta name="description" content="Privacy policy of the Zero-Tab Switching Chrome extension by tuantv: all processing happens on your device; no data is collected, transmitted, sold or shared.">
+<style>
+:root{color-scheme:light dark;--bg:#f7f5ef;--fg:#1b1a17;--muted:#676257;--line:#e2ddd0;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#f0ede5;--muted:#aaa497;--line:#36332c;--card:#1e1d1a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+main{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:30px;line-height:1.2;margin:.2em 0 .4em} h2{font-size:21px;margin:1.8em 0 .5em} p,li{color:var(--fg)}
+code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:.92em}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14.5px;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top} th{background:var(--card)}
+hr{border:0;border-top:1px solid var(--line);margin:48px 0} a{color:inherit}
+</style>
+</head>
+<body><main>
+<h1 id="privacy-policy--zero-tab-switching">Privacy Policy — Zero-Tab Switching</h1>
+<p><strong>Effective date:</strong> 11 November 2026 · <strong>Developer:</strong> tuantv · <strong>Contact:</strong> <a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></p>
+<p><a href="#chính-sách-quyền-riêng-tư--zero-tab-khỏi-chuyển-tab">Tiếng Việt bên dưới</a></p>
+<h2 id="summary">Summary</h2>
+<p>Zero-Tab Switching runs <strong>entirely on your device</strong>. It has no server, no account, no analytics, no ads and no</p>
+<p>tracking. Nothing you view or save is sent to the developer or to anyone else.</p>
+<h2 id="what-the-extension-reads">What the extension reads</h2>
+<p>When its panel is open — the Chrome side panel or the floating window — the extension reads the page in the</p>
+<p><strong>active tab</strong> so it can show you the price, specifications, contacts, "good for" suggestions and other details</p>
+<p>of that page. It reads:</p>
+<ul>
+<li>the visible text of the page's main content (up to 20,000 characters),</li>
+<li>structured data the page publishes for search engines (schema.org JSON-LD, microdata, <code>&lt;meta&gt;</code> / Open Graph tags),</li>
+<li>the page URL, title and preview image address,</li>
+<li>text you select on the page.</li>
+</ul>
+<p>This happens only for pages you open yourself, only while the panel is open, and only inside your browser. The</p>
+<p>extension does not crawl websites, open pages in the background, automate clicks, or bypass logins or paywalls.</p>
+<p>When the panel is closed, the extension's page script stays idle and reads no page content.</p>
+<h2 id="what-the-extension-stores">What the extension stores</h2>
+<table><thead><tr><th>Data</th><th>Where</th><th>Why</th><th>How long</th></tr></thead><tbody><tr><td>Items you choose to save (title, URL, price, specs, contacts shown on the page, your notes)</td><td>IndexedDB in your browser profile</td><td>Your saved list, comparison and export</td><td>Until you delete them (Settings › Delete all) or uninstall</td></tr><tr><td>Settings (language, content type remembered per domain)</td><td>IndexedDB in your browser profile</td><td>Remember your preferences</td><td>Until you change them or uninstall</td></tr><tr><td>Panel layout (side panel or floating window, its position and size) and light/dark theme</td><td><code>chrome.storage.local</code></td><td>Restore the floating window where you left it</td><td>Until you uninstall</td></tr></tbody></table>
+<p>Saved items can include phone numbers or e-mail addresses <strong>that were published on the page you saved</strong> (for</p>
+<p>example a seller's contact in a classified ad). They are stored only because you pressed Save, only on your device.</p>
+<h2 id="what-the-extension-does-not-do">What the extension does NOT do</h2>
+<ul>
+<li>It does <strong>not</strong> transmit any page content, saved item, setting or usage data off your device.</li>
+<li>It does <strong>not</strong> use cookies, fingerprinting, analytics or advertising SDKs.</li>
+<li>It does <strong>not</strong> sell, rent or share data with third parties, and does not use data for creditworthiness or lending.</li>
+<li>It does <strong>not</strong> load remote code. All code ships inside the extension package.</li>
+<li>It does <strong>not</strong> read pages in other tabs, browsing history, passwords, form inputs or downloads.</li>
+</ul>
+<p>Images shown in the panel (a page's preview image) are loaded directly by your browser from the website that</p>
+<p>published them, exactly as the page itself would load them. "Open map" links open Google Maps only when you click them.</p>
+<h2 id="permissions-and-why-they-are-needed">Permissions and why they are needed</h2>
+<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td><code>sidePanel</code></td><td>Show the extension in Chrome's side panel.</td></tr><tr><td><code>scripting</code></td><td>Connect to tabs that were already open before installation, so you don't have to reload them.</td></tr><tr><td><code>storage</code></td><td>Remember whether you use the side panel or the floating window, the window's position and the light/dark theme.</td></tr><tr><td>Host access to all sites</td><td>The panel works on whatever page you choose to open it on (shops, classifieds, job boards, news, maps…); Chrome requires site access to read the active page. Content is processed locally.</td></tr></tbody></table>
+<h2 id="exporting-and-deleting-your-data">Exporting and deleting your data</h2>
+<ul>
+<li><strong>Export:</strong> the Saved tab exports your list to Excel (.xlsx), CSV or the clipboard. Files are created locally and</li>
+</ul>
+<p>  saved by your browser's download manager.</p>
+<ul>
+<li><strong>Delete:</strong> delete single items in the Saved tab, everything in Settings › <em>Delete all saved items</em>, or remove the</li>
+</ul>
+<p>  extension — Chrome then deletes all its local data.</p>
+<h2 id="children">Children</h2>
+<p>The extension is a general productivity tool, not directed at children under 13, and collects no data from anyone.</p>
+<h2 id="changes">Changes</h2>
+<p>If this policy changes, the new version will be published at the same address with a new effective date, and the</p>
+<p>extension's store listing will be updated. Material changes that would affect how data is handled will be announced</p>
+<p>in the store listing before they take effect.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions or requests: <strong><a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></strong>.</p>
+<hr>
+<h1 id="chính-sách-quyền-riêng-tư--zero-tab-khỏi-chuyển-tab">Chính sách quyền riêng tư — Zero-Tab Khỏi Chuyển Tab</h1>
+<p><strong>Hiệu lực từ:</strong> 11/11/2026 · <strong>Nhà phát triển:</strong> tuantv · <strong>Liên hệ:</strong> <a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></p>
+<h2 id="tóm-tắt">Tóm tắt</h2>
+<p>Zero-Tab chạy <strong>hoàn toàn trên máy của bạn</strong>: không máy chủ, không tài khoản, không thống kê, không quảng cáo,</p>
+<p>không theo dõi. Không có gì bạn xem hay lưu được gửi cho nhà phát triển hay bất kỳ ai.</p>
+<h2 id="tiện-ích-đọc-gì">Tiện ích đọc gì</h2>
+<p>Khi panel đang mở — thanh bên của Chrome hoặc cửa sổ nổi — tiện ích đọc trang ở <strong>tab đang xem</strong> để hiển thị giá,</p>
+<p>thông số, liên hệ, gợi ý "hợp với ai" và các chi tiết khác của trang đó. Cụ thể:</p>
+<ul>
+<li>chữ hiển thị ở vùng nội dung chính (tối đa 20.000 ký tự),</li>
+<li>dữ liệu cấu trúc trang công bố cho máy tìm kiếm (schema.org JSON-LD, microdata, thẻ <code>&lt;meta&gt;</code> / Open Graph),</li>
+<li>địa chỉ, tiêu đề và ảnh xem trước của trang,</li>
+<li>đoạn chữ bạn bôi đen.</li>
+</ul>
+<p>Việc này chỉ diễn ra với trang bạn tự mở, chỉ khi panel đang mở, và chỉ trong trình duyệt của bạn. Tiện ích không tự</p>
+<p>dò quét website, không mở trang ngầm, không tự bấm, không vượt đăng nhập hay tường phí. Khi panel đóng, mã chạy trên</p>
+<p>trang ở trạng thái nghỉ và không đọc nội dung trang.</p>
+<h2 id="tiện-ích-lưu-gì">Tiện ích lưu gì</h2>
+<table><thead><tr><th>Dữ liệu</th><th>Ở đâu</th><th>Để làm gì</th><th>Bao lâu</th></tr></thead><tbody><tr><td>Mục bạn chủ động lưu (tiêu đề, link, giá, thông số, liên hệ ghi trên trang, ghi chú của bạn)</td><td>IndexedDB trong hồ sơ trình duyệt</td><td>Danh sách đã lưu, so sánh, xuất file</td><td>Tới khi bạn xoá (Cài đặt › Xoá toàn bộ) hoặc gỡ tiện ích</td></tr><tr><td>Cài đặt (ngôn ngữ, loại nội dung nhớ theo tên miền)</td><td>IndexedDB trong hồ sơ trình duyệt</td><td>Nhớ lựa chọn của bạn</td><td>Tới khi bạn đổi hoặc gỡ tiện ích</td></tr><tr><td>Bố cục panel (thanh bên hay cửa sổ nổi, vị trí, kích thước) và giao diện sáng/tối</td><td><code>chrome.storage.local</code></td><td>Mở lại cửa sổ nổi đúng chỗ cũ</td><td>Tới khi gỡ tiện ích</td></tr></tbody></table>
+<p>Mục đã lưu có thể chứa số điện thoại, email <strong>được công khai trên trang bạn lưu</strong> (ví dụ liên hệ người bán trong tin</p>
+<p>rao). Chúng chỉ được lưu khi bạn bấm Lưu, và chỉ nằm trên máy bạn.</p>
+<h2 id="tiện-ích-không-làm">Tiện ích KHÔNG làm</h2>
+<ul>
+<li><strong>Không</strong> gửi nội dung trang, mục đã lưu, cài đặt hay dữ liệu sử dụng ra khỏi máy.</li>
+<li><strong>Không</strong> dùng cookie, dấu vân tay trình duyệt, công cụ thống kê hay quảng cáo.</li>
+<li><strong>Không</strong> bán, cho thuê, chia sẻ dữ liệu với bên thứ ba; không dùng dữ liệu để xét tín dụng hay cho vay.</li>
+<li><strong>Không</strong> tải mã từ xa — toàn bộ mã nằm sẵn trong gói cài đặt.</li>
+<li><strong>Không</strong> đọc tab khác, lịch sử duyệt web, mật khẩu, dữ liệu biểu mẫu hay tệp tải xuống.</li>
+</ul>
+<p>Ảnh hiển thị trong panel (ảnh xem trước của trang) do trình duyệt tải trực tiếp từ website đã đăng ảnh, giống hệt khi</p>
+<p>trang tự tải. Nút "Mở bản đồ" chỉ mở Google Maps khi bạn bấm.</p>
+<h2 id="quyền-truy-cập-và-lý-do">Quyền truy cập và lý do</h2>
+<table><thead><tr><th>Quyền</th><th>Lý do</th></tr></thead><tbody><tr><td><code>sidePanel</code></td><td>Hiển thị tiện ích ở thanh bên của Chrome.</td></tr><tr><td><code>scripting</code></td><td>Kết nối với các tab đã mở từ trước khi cài, để bạn không phải tải lại trang.</td></tr><tr><td><code>storage</code></td><td>Nhớ bạn dùng thanh bên hay cửa sổ nổi, vị trí cửa sổ và giao diện sáng/tối.</td></tr><tr><td>Truy cập mọi trang web</td><td>Panel hoạt động trên bất kỳ trang nào bạn chọn mở nó (cửa hàng, rao vặt, tuyển dụng, tin tức, bản đồ…); Chrome yêu cầu quyền này để đọc trang đang xem. Nội dung được xử lý ngay trên máy.</td></tr></tbody></table>
+<h2 id="xuất-và-xoá-dữ-liệu">Xuất và xoá dữ liệu</h2>
+<ul>
+<li><strong>Xuất:</strong> tab Đã lưu xuất danh sách ra Excel (.xlsx), CSV hoặc bộ nhớ tạm. File được tạo trên máy và lưu bằng trình</li>
+</ul>
+<p>  quản lý tải xuống của trình duyệt.</p>
+<ul>
+<li><strong>Xoá:</strong> xoá từng mục ở tab Đã lưu, xoá tất cả ở Cài đặt › <em>Xoá toàn bộ mục đã lưu</em>, hoặc gỡ tiện ích — Chrome sẽ</li>
+</ul>
+<p>  xoá toàn bộ dữ liệu cục bộ của tiện ích.</p>
+<h2 id="trẻ-em">Trẻ em</h2>
+<p>Đây là công cụ năng suất chung, không hướng tới trẻ dưới 13 tuổi, và không thu thập dữ liệu của bất kỳ ai.</p>
+<h2 id="thay-đổi">Thay đổi</h2>
+<p>Nếu chính sách thay đổi, bản mới sẽ được đăng tại cùng địa chỉ với ngày hiệu lực mới và trang Chrome Web Store sẽ được</p>
+<p>cập nhật. Thay đổi quan trọng liên quan tới cách xử lý dữ liệu sẽ được thông báo trên trang Store trước khi áp dụng.</p>
+<h2 id="liên-hệ">Liên hệ</h2>
+<p>Câu hỏi hoặc yêu cầu: <strong><a href="mailto:tuantruongvan3001@gmail.com">tuantruongvan3001@gmail.com</a></strong>.</p>
+</main></body>
+</html>

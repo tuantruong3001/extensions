@@ -14,7 +14,8 @@ Static site for **GitHub Pages**: privacy policies and support contact for the C
 2. Repository **Settings › Pages › Source: Deploy from a branch › `main` / `(root)` › Save**.
 3. After 1–2 minutes the site is live at `https://<github-user>.github.io/<repo>/`.
 
-Privacy policy URLs for the Chrome Web Store Developer Dashboard:
+Privacy policy URLs — the same URLs work for both the Chrome Web Store Developer Dashboard
+and Microsoft Edge Add-ons (Partner Center); the policies are written for both browsers:
 
 ```
 https://<github-user>.github.io/<repo>/zero-tab/privacy-policy.html
